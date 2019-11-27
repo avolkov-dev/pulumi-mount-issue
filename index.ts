@@ -29,6 +29,5 @@ new aws.ec2.VolumeAttachment( "data-attachment",
     {
       volumeId: dataVolume.id,
       instanceId: ec2.id,
-      deviceName: "/dev/xvdb",
-      forceDetach: true
+      deviceName: "/dev/xvdb"
 }, { provider: provider });
