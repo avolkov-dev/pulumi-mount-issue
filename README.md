@@ -31,3 +31,6 @@ Actual: getting  "VolumeInUse" error
 ```console
 error: Error attaching volume (vol-xxx) to instance (i-xxx), message: "vol-xxx is already attached to an instance", code: "VolumeInUse"
 ```
+
+
+Fixed with deleteBeforeReplace: true on ec2 instance
